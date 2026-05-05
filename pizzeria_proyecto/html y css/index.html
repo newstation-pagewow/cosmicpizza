@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/html y css/normalize.css">
+    <link rel="stylesheet" href="/html y css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="index.css">
+    <link rel="icon" href="/imagenes/pizza.png" type="image/png">
+   
+
+
+</head>
+<body>
+    <div class="contenedor">
+     
+        <header class="header">
+      
+      <div class="logo">
+    <img src="/imagenes/logocosmic.png" alt="Logo Cosmic Pizza">
+      </div>
+
+
+
+<div class="hamburguesa" id="btn-menu">
+   <img src="https://www.pngkey.com/png/detail/30-303853_hamburger-menu-icon-menu-button-three-lines.png" alt="menu">
+</div>
+
+
+<nav class="menu" id="menu-nav">
+          
+
+         <ul class="navegacion">  
+
+    <li><a href="#inicio">Inicio</a></li>
+    <li><a href="#menu">Menu</a></li>
+    <li><a href="#servicios">Servicios</a></li>
+    <li><a href="#nosotros">Nosotros</a></li>
+    <li><a href="#galeria">Galeria</a></li>
+    <li><a href="#">Iniciar sesión</a></li>
+    <li><a href="#" class="btn-registrar">Registrar</a></li>
+
+</ul>
+          </nav>
+
+              <!-- CARRITO -->
+<div class="carrito">
+    🛒 <span id="contador">0</span> | $<span id="total">0</span>
+</div>
+
+</div>
+
+        </header>
+
+<aside class="presentacion" id="inicio">
+<div class="informacion">
+<h1>Ordena tu pizza favorita</h1>
+
+<div>
+    <p>“En Cosmic Pizza cada bocado es un viaje al espacio.
+         Ingredientes frescos, combinaciones estelares y sabores que te harán sentir en otra galaxia.
+          Explora nuestro menú y encuentra tu pizza favorita… ¡listo para despegar!”</p>
+</div>
+
+<div class="informacion--boton">
+    <a href="#menu">Explorar comida</a>
+</div>
+
+</div>
+
+
+
+<div class="presentacion--images">
+
+    <img src="/imagenes/pizzahome.png" alt="images presentacion">
+
+</div>
+
+        </aside>
+  
+<main class="menu" id="menu">
+
+    <!--seccio de platos populares -->
+    <section class="comida populares">
+        <h2 class="comida--titulo">Nuestros platos populares</h2>
+
+        <div class="platos">
+
+
+            <article class="plato">
+                <img src="/imagenes/peperoni.png" alt="">
+                <h1>Pizza de peperoni</h1>
+                <p>Base de tomate y queso fundido, cubierta con rodajas de pepperoni que aportan un sabor intenso y característico.</p>
+                <div class="plato--info">
+                    <p>RD$500</p>
+                  <button type="button" class="btn-agregar" data-nombre="Pizza de peperoni" data-precio="RD$500">+</button>
+                </div>
+            </article>
+
+            <article class="plato">
+                <img src="/imagenes/cuatro queso.png" alt="">
+                <h1>Pizza de cuatro quesos</h1>
+                <p>Mezcla equilibrada de mozzarella, parmesano, gorgonzola y cheddar, ideal para quienes disfrutan de un sabor cremoso y lleno de matices.</p>
+                <div class="plato--info">
+                    <p>RD$550</p>
+                     <button type="button" class="btn-agregar" data-nombre="Pizza de cuatro quesos" data-precio="RD$550">+</button>
+                </div>
+            </article>
+
+            <article class="plato">
+                <img src="/imagenes/margarita.png" alt="">
+                <h1>Pizza de margarita</h1>
+                <p>Salsa de tomate fresca, mozzarella suave y albahaca seleccionada. Una receta tradicional que nunca pasa de moda.</p>
+                <div class="plato--info">
+                    <p>RD$600</p>
+                      <button type="button" class="btn-agregar" data-nombre="Pizza de margarita" data-precio="RD$600">+</button>
+                </div>
+            </article>
+
+            <article class="plato">
+                <img src="/imagenes/hawaiana.png" alt="">
+                <h1>Pizza Hawaiana</h1>
+                <p>Jamón de calidad y piña fresca sobre mozzarella fundida. Una combinación dulce y salada que sorprende.</p>
+                <div class="plato--info">
+                    <p>RD$1000</p>
+                     <button type="button" class="btn-agregar" data-nombre="Pizza Hawaiana" data-precio="RD$1000">+</button>
+                </div>
+            </article>
+
+            <article class="plato">
+                <img src="/imagenes/Napolitana.png" alt="">
+                <h1>Pizza Napolitana</h1>
+                <p>Inspirada en la tradición italiana, con salsa de tomate artesanal, mozzarella y anchoas para un sabor auténtico.</p>
+                <div class="plato--info">
+                    <p>RD$650</p>
+                     <button type="button" class="btn-agregar" data-nombre="Pizza Napolitana" data-precio="RD$650">+</button>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- seccion de platos vegetarianos-->
+    <section class="comida vegetarianas">
+        <h2 class="comida--titulo">Nuestros Platos Vegetarianos</h2>
+
+        <div class="platos">
+
+            <article class="plato vegetariano">
+                <img src="/imagenes/vegetales_asados.png" alt="vegetales asados">
+                <h1>Pizza de vegetales asados</h1>
+                <p>Pimientos, champiñones, cebolla y calabacín asados, servidos sobre mozzarella. Una opción ligera y nutritiva.</p>
+                <div class="plato--info">
+                    <p>RD$420</p>
+                   <button type="button" class="btn-agregar" data-nombre="Pizza de vegetales asados" data-precio="RD$420">+</button>
+                </div>
+            </article>
+
+            <article class="plato vegetariano">
+                <img src="/imagenes/vegetariana_caprese.png" alt="caprese">
+                <h1>Pizza Caprese</h1>
+                <p>Tomate fresco, mozzarella de búfala y albahaca, con un toque de aceite de oliva. Simple y elegante.</p>
+                <div class="plato--info">
+                    <p>RD$780</p>
+                    <button type="button" class="btn-agregar" data-nombre="Pizza Caprese" data-precio="RD$780">+</button>
+                </div>
+            </article>
+
+            <article class="plato vegetariano">
+                <img src="/imagenes/vgetariana_espinacaricotta.png" alt="espinaca y ricotta">
+                <h1>Pizza de Espinaca y Ricotta</h1>
+                <p>Espinaca fresca combinada con ricotta cremosa y mozzarella fundida. Suave y equilibrada.</p>
+                <div class="plato--info">
+                    <p>RD$930</p>
+                    <button type="button" class="btn-agregar" data-nombre="Pizza de Espinaca y Ricotta" data-precio="RD$930">+</button>
+                </div>
+            </article>
+
+            <article class="plato vegetariano">
+                <img src="/imagenes/vegetariana_calabacinberengena.png" alt="calabacín y berenjena">
+                <h1>Pizza de Calabacín y berengena</h1>
+                <p>Ingredientes mediterráneos con mozzarella y hierbas aromáticas. Una propuesta saludable y llena de sabor.</p>
+                <div class="plato--info">
+                    <p>RD$340</p>
+                     <button type="button" class="btn-agregar" data-nombre="Pizza de Calabacín y berengena" data-precio="RD$340">+</button>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <div class="menu--accion">
+  <button id="finalizarCompra" class="btn-finalizar">Finalizar compra</button>
+</div>
+
+</main>
+
+
+<div id="reporte" class="reporte" style="display:none;">
+  <h2>Factura Cosmic Pizza</h2>
+  <div id="reporte-productos"></div>
+  <h3 id="reporte-total"></h3>
+</div>
+
+
+
+
+
+    <!-- TU HOME / PRESENTACION -->
+    
+    <section class="servicios" id="servicios">
+        <h2 class="servicios--titulo">Nuestros Servicios</h2>
+
+        <div class="servicios--contenedor">
+
+            <div class="servicio">
+                <img src="/imagenes/artesanal_servi2.jpg" alt="">
+                <h3>Elaboración artesanal</h3>
+                <p>En Cosmic Pizza nos especializamos en la preparación de pizzas con ingredientes frescos y cuidadosamente seleccionados.
+                   Cada receta es elaborada siguiendo estándares de calidad que garantizan un sabor auténtico y consistente.</p>
+            </div>
+
+            <div class="servicio">
+                <img src="/imagenes/entrega_servi.jpg" alt="">
+                <h3>Entrega eficiente</h3>
+                <p>Ofrecemos un servicio de delivery confiable y puntual,
+                   asegurando que cada pedido llegue caliente y en perfectas condiciones hasta la puerta de nuestros clientes.</p>
+            </div>
+
+            <div class="servicio">
+                <img src="/imagenes/cosmico_servi.jpg" alt="">
+                <h3>Experiencia cósmica</h3>
+                <p>Cosmic Pizza no es solo una pizzería, es un concepto que integra creatividad y excelencia culinaria.
+                   Cada visita representa un viaje sensorial único, diseñado para superar las expectativas de nuestros clientes.</p>
+            </div>
+
+            <div class="servicio">
+                <img src="/imagenes/eventos_servi2.jpg" alt="">
+                <h3>Catering y eventos</h3>
+                <p>Disponemos de soluciones gastronómicas adaptadas a celebraciones,
+                   reuniones corporativas y eventos sociales.
+                    Nuestro equipo se encarga de brindar una experiencia culinaria memorable para cada ocasión.</p>
+            </div>
+
+        </div>
+    </section>
+
+</main>
+
+
+
+<section class="nosotros" id="nosotros">
+
+    <div class="nosotros--contenedor">
+
+        <!-- IMAGEN -->
+        <div class="nosotros--imagen">
+            <img src="/imagenes/nosotros_pizza.webp" alt="Equipo Cosmic Pizza">
+        </div>
+
+        <!-- CONTENIDO -->
+        <div class="nosotros--info">
+
+            <span class="nosotros--subtitulo">Sobre nosotros</span>
+
+            <h2>Una experiencia que va más allá de la pizza</h2>
+
+            <p>
+                En Cosmic Pizza combinamos ingredientes frescos, técnicas artesanales y una visión creativa
+                para ofrecer sabores únicos. Cada detalle está pensado para brindarte una experiencia que no solo se disfruta,
+                sino que se recuerda.
+            </p>
+
+            <p>
+                Nuestro compromiso es claro: calidad, rapidez y una atención que haga sentir a cada cliente como parte de nuestra historia.
+            </p>
+
+            <!-- STATS -->
+            <div class="nosotros--stats">
+
+                <div class="stat">
+                    <h3>+5</h3>
+                    <p>Años de experiencia</p>
+                </div>
+
+                <div class="stat">
+                    <h3>+10K</h3>
+                    <p>Clientes satisfechos</p>
+                </div>
+
+                <div class="stat">
+                    <h3>24/7</h3>
+                    <p>Atención disponible</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="valores" id="valores">
+
+    <h2 class="valores__titulo">Nuestra Esencia</h2>
+
+    <div class="valores__contenedor">
+
+       <div class="valor">
+    <h3>Misión</h3>
+    <p>Brindar experiencias gastronómicas únicas con ingredientes frescos y calidad excepcional.</p>
+       </div>
+
+        <div class="valor">
+    <h3>Visión</h3>
+    <p>Ser una marca reconocida por innovación, sabor y excelencia en cada detalle.</p>
+        </div>
+
+        <div class="valor">
+    <h3>Valores</h3>
+    <p>Compromiso, calidad, creatividad y pasión por lo que hacemos.</p>
+       </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="galeria" id="galeria">
+
+    <h2 class="galeria--titulo">Estamos disponibles en:</h2>
+
+    <div class="galeria--wrapper">
+
+       <button class="galeria-btn galeria-prev">&#10094;</button>
+
+        <div class="galeria--contenedor" id="galeria-scroll">
+
+            <!-- ITEM -->
+            <div class="galeria-item">
+                <img src="/imagenes/dominican_galery.webp" alt="">
+                <div class="overlay">
+                    <h3>Republica Dominicana</h3>
+                    <p>“Nuestro sabor cósmico nació aquí, en Santo Domingo, llevando la tradición y calidad a cada mesa.
+                         Desde 2015, somos parte de la vida cotidiana de nuestros clientes locales.”</p>
+                </div>
+            </div>
+
+            <div class="galeria-item">
+                <img src="https://pohcdn.com/sites/default/files/styles/paragraph__live_banner__lb_image__1880bp/public/live_banner/Mexico-city-1.jpg" alt="">
+                <div class="overlay">
+                    <h3>México</h3>
+                    <p>“En la tierra del picante y la fiesta, 
+                        Cosmic Pizza llegó en 2017 para ofrecer combinaciones únicas que conquistan paladares exigentes en Ciudad de México y Guadalajara.”</p>
+                </div>
+            </div>
+
+            <div class="galeria-item">
+                <img src="https://assets.weforum.org/article/image/UF_eTLwrdSwT_N8dYeViPlilWvcMua2hdPKAnW4Ucpg.jpg" alt="">
+                <div class="overlay">
+                    <h3>Estados Unidos</h3>
+                    <p>“Desde Nueva York hasta Miami, nuestras pizzas artesanales se disfrutan en un ambiente moderno y cosmopolita.
+                         Iniciamos operaciones en 2018, expandiendo nuestra propuesta a un público internacional.”</p>
+                </div>
+            </div>
+
+            <div class="galeria-item">
+                <img src="https://realestatemarket.com.mx/images/2020/04-Abril/2504/_Calles_prime_ganan_atractivo_en_Espana_por_crisis_de_COVID-19__p.jpg" alt="">
+                <div class="overlay">
+                    <h3>España</h3>
+                    <p>“En Madrid y Barcelona, Cosmic Pizza fusiona tradición italiana con creatividad cósmica.
+                         Desde 2019, ofrecemos una experiencia inolvidable en dos de las ciudades más vibrantes de Europa.”</p>
+                </div>
+            </div>
+
+
+            <div class="galeria-item">
+                <img src="https://res.cloudinary.com/hyvrprjak/image/upload/1000x400_colombia_01.jpg" alt="">
+                <div class="overlay">
+                    <h3>Colombia</h3>
+                    <p>“En Bogotá y Medellín, cada porción es un viaje de sabor que conecta culturas y momentos especiales.
+                         Nuestra llegada en 2020 marcó el inicio de una nueva etapa en Sudamérica.”</p>
+                </div>
+            </div>
+
+                <div class="galeria-item">
+                <img src="https://fotografias.larazon.es/clipping/cmsimages01/2025/02/14/B85105F0-12F6-4AB5-ACBD-58FDF87C4D76/capital-argentina-arrebatadora-casi-infinita_98.jpg?crop=3164,1780,x0,y0&width=1900&height=1069&optimize=low&format=webply" alt="">
+                <div class="overlay">
+                    <h3>Argentina</h3>
+                    <p>“En Buenos Aires, la pasión por la buena comida se une con nuestras recetas artesanales.
+                         Desde 2022, Cosmic Pizza acompaña celebraciones y momentos únicos en la capital porteña.”</p>
+                </div>
+            </div>
+
+                  <div class="galeria-item">
+                <img src="https://i.natgeofe.com/n/424e1067-ad19-4e73-a091-78a3cf99f9f9/coverstory_chile_GettyImages-2018683965_ukHR.jpg" alt="">
+                <div class="overlay">
+                    <h3>Chile</h3>
+                    <p>“En Santiago, Cosmic Pizza se ha convertido en un punto de encuentro para quienes buscan calidad y buen gusto.
+                         Desde 2021, somos parte de la escena gastronómica chilena.”</p>
+                </div>
+            </div>
+
+        </div>
+
+       <button class="galeria-btn galeria-next">&#10095;</button>
+
+    </div>
+
+</section>
+
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    const galeria = document.querySelector(".galeria--contenedor");
+    const next = document.querySelector(".galeria-next");
+    const prev = document.querySelector(".galeria-prev");
+
+    let intervalo;
+
+    // 👉 FUNCION AUTO SCROLL
+    function autoScroll() {
+        intervalo = setInterval(() => {
+            galeria.scrollLeft += 350;
+
+            // 🔁 reinicia cuando llega al final
+            if (galeria.scrollLeft + galeria.clientWidth >= galeria.scrollWidth) {
+                galeria.scrollLeft = 0;
+            }
+
+        }, 2500); // velocidad (puedes ajustar)
+    }
+
+    // ▶ iniciar
+    autoScroll();
+
+    // ⏸ detener al pasar el mouse
+    galeria.addEventListener("mouseenter", () => {
+        clearInterval(intervalo);
+    });
+
+    // ▶ reanudar
+    galeria.addEventListener("mouseleave", () => {
+        autoScroll();
+    });
+
+    // BOTONES (se mantienen)
+    next.addEventListener("click", () => {
+        galeria.scrollLeft += 350;
+    });
+
+    prev.addEventListener("click", () => {
+        galeria.scrollLeft -= 350;
+    });
+});
+</script>
+
+
+
+<!-- LIBRERÍAS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+<!-- SCRIPT COMPLETO -->
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+
+    let contador = 0;
+    let total = 0;
+    let carrito = [];
+
+    const contadorEl = document.getElementById("contador");
+    const totalEl = document.getElementById("total");
+    const finalizarBtn = document.getElementById("finalizarCompra");
+
+    // 🔥 CLICK EN BOTONES +
+    document.addEventListener("click", (e) => {
+        const btn = e.target.closest(".btn-agregar");
+        if (!btn) return;
+
+        const nombre = btn.dataset.nombre;
+        const precio = parseFloat(btn.dataset.precio) || 0;
+
+        carrito.push({ nombre, precio });
+
+        contador++;
+        total += precio;
+
+        // actualizar UI
+        if (contadorEl) contadorEl.textContent = contador;
+        if (totalEl) totalEl.textContent = total.toFixed(2);
+    });
+
+    // 🔥 FINALIZAR COMPRA (PDF)
+    finalizarBtn.addEventListener("click", async () => {
+
+        if (carrito.length === 0) {
+            alert("El carrito está vacío");
+            return;
+        }
+
+        const contenedor = document.getElementById("reporte");
+        const lista = document.getElementById("reporte-productos");
+        const totalTexto = document.getElementById("reporte-total");
+
+        lista.innerHTML = "";
+
+        carrito.forEach((item, i) => {
+            lista.innerHTML += `<p>${i + 1}. ${item.nombre} - $${item.precio}</p>`;
+        });
+
+        totalTexto.textContent = "TOTAL: $" + total.toFixed(2);
+
+        contenedor.style.display = "block";
+
+        try {
+            const canvas = await html2canvas(contenedor);
+            const imgData = canvas.toDataURL("image/png");
+
+            const { jsPDF } = window.jspdf;
+            const pdf = new jsPDF();
+
+            pdf.addImage(imgData, "PNG", 10, 10, 180, 0);
+            pdf.save("factura_cosmic_pizza.pdf");
+
+        } catch (error) {
+            console.error("Error generando PDF:", error);
+        }
+
+        contenedor.style.display = "none";
+    });
+
+});
+</script>
+
+
+
+
+</body>
+
+
+
+
+
+</html>
